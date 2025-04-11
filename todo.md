@@ -12,12 +12,12 @@ Split the large `data.csv` file into smaller files (less than 10MB each) while p
 - [x] Create a function to write new CSV files with the header
 - [x] Implement file size tracking to ensure each output file is under 10MB
 - [x] Add error handling for file operations
-- [ ] Add progress reporting during the splitting process
+- [x] Add progress reporting during the splitting process
 - [ ] Test the script with a small sample of the data
 - [ ] Run the script on the full `data.csv` file
 - [ ] Verify that all output files have the correct header
 - [ ] Verify that all output files are under 10MB
-- [ ] Document the process and script usage
+- [x] Document the process and script usage
 
 ## Implementation Notes
 
