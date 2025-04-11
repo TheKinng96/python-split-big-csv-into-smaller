@@ -5,13 +5,13 @@ Split the large `data.csv` file into smaller files (less than 10MB each) while p
 
 ## Tasks
 
-- [ ] Create a Python script to handle the CSV splitting
-- [ ] Set up a folder structure for the output files
-- [ ] Implement logic to read the large CSV file in chunks
-- [ ] Extract and save the header row from the original CSV
-- [ ] Create a function to write new CSV files with the header
-- [ ] Implement file size tracking to ensure each output file is under 10MB
-- [ ] Add error handling for file operations
+- [x] Create a Python script to handle the CSV splitting
+- [x] Set up a folder structure for the output files
+- [x] Implement logic to read the large CSV file in chunks
+- [x] Extract and save the header row from the original CSV
+- [x] Create a function to write new CSV files with the header
+- [x] Implement file size tracking to ensure each output file is under 10MB
+- [x] Add error handling for file operations
 - [ ] Add progress reporting during the splitting process
 - [ ] Test the script with a small sample of the data
 - [ ] Run the script on the full `data.csv` file
